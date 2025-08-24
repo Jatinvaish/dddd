@@ -20,7 +20,7 @@ import { useModalCompareContext } from '@/context/ModalCompareContext'
 import { useRouter } from 'next/navigation';
 import ModalSizeguide from '@/components/Modal/ModalSizeguide'
 
-SwiperCore.use([Navigation, Thumbs]);
+
 
 interface Props {
     data: Array<ProductType>

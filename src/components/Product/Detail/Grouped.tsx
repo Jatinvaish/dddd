@@ -18,7 +18,7 @@ import { useModalWishlistContext } from '@/context/ModalWishlistContext'
 import { useCompare } from '@/context/CompareContext'
 import { useModalCompareContext } from '@/context/ModalCompareContext'
 
-SwiperCore.use([Navigation, Thumbs]);
+
 
 interface Props {
     data: Array<ProductType>

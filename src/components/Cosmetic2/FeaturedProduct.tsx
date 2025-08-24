@@ -14,7 +14,7 @@ import { useModalCartContext } from '@/context/ModalCartContext'
 import { useWishlist } from '@/context/WishlistContext'
 import { useModalWishlistContext } from '@/context/ModalWishlistContext'
 
-SwiperCore.use([Navigation, Thumbs]);
+
 
 interface Props {
     data: Array<ProductType>;

@@ -12,7 +12,7 @@ import SwiperCore from 'swiper/core';
 import { useCart } from '@/context/CartContext'
 import { useModalCartContext } from '@/context/ModalCartContext'
 
-SwiperCore.use([Navigation, Thumbs]);
+
 
 interface Props {
     data: Array<ProductType>;

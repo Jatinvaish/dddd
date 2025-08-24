@@ -13,7 +13,7 @@ import { useCart } from '@/context/CartContext'
 import { useModalCartContext } from '@/context/ModalCartContext'
 import ModalSizeguide from '../Modal/ModalSizeguide'
 
-SwiperCore.use([Navigation, Thumbs]);
+
 
 interface Props {
     data: Array<ProductType>;
